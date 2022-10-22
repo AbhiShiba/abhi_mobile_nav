@@ -13,14 +13,13 @@ body {
     border: 2px solid white;
     border-radius: 1.2rem;
     display: block;
+    box-shadow: 0 0px 1px 0 rgb(0 0 0 / 20%), 0 0px 1px 0 rgb(0 0 0 / 19%);
 }
 
 .wallpaper {
     display: block;
-    /* width: 20vw;
-    height: 20vh;
-    background-image: url("https://w0.peakpx.com/wallpaper/604/379/HD-wallpaper-rimuru-isekai-rey-demonio-slime.jpg"); */
 }
+
 img {
     width: 17.8rem;
     height: 28rem;
