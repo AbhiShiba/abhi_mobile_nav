@@ -8,18 +8,34 @@
     <link rel="stylesheet" href="Mobile_tab_navigation.css">
     <script src="https://kit.fontawesome.com/f224eb872a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="icon" href="/mobile_tab_navigation/image/favicon.png" type="image/png" >
+    <script src="tab.js" defer></script>
 </head>
 <body>
         <div class="mobile">
             <section class="wallpaper">
-                <img src="tempest.jpg" alt="wallpaper">
+                <img id="homescreen" src="tempest.jpg" alt="wallpaper">
+                <div class="home screen">
+                    <img id="img2" src="/mobile_tab_navigation/image/logo.png" alt="logo">
+                    <h1 id="h1-tag">Am verse</h1>
+                </div>
+                <div class="home work">
+                    <div class="list">
+                        <h1>Works</h1>
+                        <ul>
+                            <li>Web Developement</li>
+                            <li>Services</li>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
             <section class="navControl">
                 <ul class="navList navList2">
-                    <li><div class="hov"><i class="fas fa-home"></i><div class="text">Home</div></div></li>
-                    <li><div class="hov"><i class="fa-solid fa-box"></i><div class="text">Work</div></div></li>
-                    <li><div class="hov"><i class="fas fa-book-open"></i><div class="text">Blog</div></div></li>
-                    <li><div class="hov"><i class="fas fa-users"></i><div class="text">About Us</div></div></li>
+                    <li><div id="btn1" class="hov"><i class="fas fa-home"></i><div class="text">Home</div></div></li>
+                    <li><div id="btn2" class="hov"><i class="fa-solid fa-box"></i><div class="text">Work</div></div></li>
+                    <li><div id="btn3" class="hov"><i class="fas fa-book-open"></i><div class="text">Blog</div></div></li>
+                    <li><div id="btn4" class="hov"><i class="fas fa-users"></i><div class="text">About Us</div></div></li>
                 </ul>
             </section>
         </div>
